@@ -49,7 +49,7 @@ function Obj({ group, position, src, isMetal, rotateObj, setRotateObj, active, s
 				if (child instanceof THREE.Mesh && isMetal) {
 					child.material = new THREE.MeshStandardMaterial({
 						metalness: isMetal ? 1.0 : 0,
-						roughness: isMetal ? 0.7 : 1,
+						roughness: isMetal ? 0.4 : 1,
 					});
 				}
 				if (child instanceof THREE.Mesh) {
