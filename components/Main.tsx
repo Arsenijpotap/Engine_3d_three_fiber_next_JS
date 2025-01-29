@@ -9,7 +9,6 @@ export default function Main() {
 	const [activeObj, setActiveObj] = useState("none"); // Состояние скрытия
 	useEffect(() => {
 		const handleKeyDown = (event: KeyboardEvent) => {
-			console.log(event.key);
 			if (event.key === "e" || event.key === "E" || event.key === "у" || event.key === "У") {
 				setActive((act) => !act);
 			}
