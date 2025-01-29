@@ -77,7 +77,7 @@ function Obj({ group, position, src, isMetal, rotateObj, setRotateObj, active, s
 				for (let i = 0; i < 3; i++) {
 					setTimeout(() => {
 						deg = i / 100;
-					}, i * 700);
+					}, i * 100);
 				}
 			}
 		} else {
